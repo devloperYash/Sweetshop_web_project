@@ -1,0 +1,23 @@
+.Progress
+{
+  width:500px;
+  height:40px;
+  background-color: #ddd;
+  margin: 200px auto;
+  border-radius: 50px;
+}
+.progress-bar
+{
+  width:0%;
+  height:40px;
+  background-color: plum;
+  border-radius: 50px;
+  box-sizing: border-box;
+  animation: bar 5s infinite;
+  pointer-events: auto;
+}
+@keyframes bar
+{
+  0%{width:0;}
+  100%{width:100%;}
+}

@@ -1,0 +1,575 @@
+header {
+    width :100%;
+    height:60px;
+    border-style:solid;
+    border-size:1px;
+    border-color:red;
+    box-sizing:border-box;
+    padding :4px;
+    justify-content: space-around;
+  }
+  body{
+    padding:0;
+    margin:0;
+  }
+
+  #brand{
+    padding:0;
+    margin:0;
+    float : left;
+    margin-left: 10px;
+  }
+#brand:hover
+{
+  text-shadow: 3px 6px 7px black;
+}
+  #tag_line{
+    float :right;
+    padding-right:10px;
+  }
+  nav{
+    width :100%;
+    height:100px;
+    background-color:orange;
+    box-sizing:border-box;
+    float:left;
+    padding:30px;
+    display: flex;
+    justify-content: space-around;
+  }
+  #search{
+    width :400px;
+    height:40px;
+    float:left;
+    background-color:white;
+    border-sizing:border-box;
+   border:none;
+    font-size:15px;
+    padding:10px;
+   border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+  }
+  #submit{
+    width :100px;
+    height:40px;
+    float:left;
+    border-sizing:border-box;
+    border:none;
+    margin-left:3px;
+    font-size:15px;
+    border-bottom-right-radius:30px; 
+    border-top-right-radius: 30px;
+    
+  }
+  #submit:hover
+{
+  background-color: orange;
+  box-shadow: 0 0 7px white;
+}
+  #menu-table{
+    width :400px;
+    height:40px;
+    float:right;
+    border-sizing:border-box;
+   
+  }
+    #menu_item:hover{
+      background-color: orange;
+      box-shadow: 0 0 20px white;
+    border-radius:50px;
+    transition:1s;
+      
+      
+    }
+#menu_item{
+      
+ 
+      background-color: whitesmoke;
+      width:18%;
+      text-align:center;
+     font-family: 'Font', sans-serif;
+      
+    }
+  a{
+    text-decoration:none;
+    color:black;
+    font-family:century;
+  }
+  section
+  {
+    width :96%;
+    height:2750px;
+    float:left;
+border-sizing:border-box;
+    border-width:1px;
+    border-style:solid;
+    border-color:#ccc;
+    padding:30px;
+  }
+  #Venue
+  {
+    float:left;
+  }
+  #phone
+  {
+    float:right;
+  }
+  #popular-sweet-box
+  {
+    width :580px;
+    height:480px;
+    float:left;
+    border-sizing:border-box;
+    background-color:black;
+    margin-top:30px;
+    padding:25px;
+  }
+  #Our-popular-sweet-title
+  {
+    color:white;
+    text-align:center;
+    font-size:30px;
+    margin:0px;
+    padding:0px;
+  }
+  #popular-sweet-img
+  {
+    width:240px;
+    height:170px;
+    padding:15px;
+    border-width:5px;
+    border-style:solid;
+    border-color:white;
+    border-sizing:border-box;
+   
+  }
+    #rate-list-box
+  {
+    width:300px;
+    height:526px;
+    float:right;
+    border-sizing:border-box;
+    margin-top:30px;
+  }
+    #rate-header
+  {
+      height:50px;
+      border-sizing:border-box;
+      background-color:black;
+    color:white;
+    text-align:center;
+    font-weight:bold;
+      font-size:18px;
+    }
+  #sweet-price{
+      height:50px;
+    border-sizing:border-box;
+    background-color:black;
+    color:white;
+    text-align:center;
+    font-weight:bold;
+    font-size:18px;
+    }
+    #rate-content{
+    background-color:orange;
+    }
+  #s-name
+  {
+    color:white;
+   text-size:15px;
+    font-family:century gothic;
+    padding:13px;
+    border-bottom-width:2px;
+    border-bottom-style:solid;
+    border-bottom-color:white;
+  }
+  #ol-style
+  {
+    list-style:none;
+  }
+  fieldset{
+    width:600px;
+    height:490px;
+    margin-top:50px;
+    border-bottom-color:#ccc;
+    float:left;
+  }
+  legend{
+    font-size:25px;
+    font-weight:bold;
+  }
+  #order-online
+  {
+    font-size:15px;
+  }
+  #order-input
+  {
+    width:100%;
+    height:25px;
+    border-bottom-color:#ccc;
+    border-size:1px;
+    border-style:solid;
+  }
+  textarea
+  {
+    width:100%;
+    height:60px;
+    border-sizing:border-box;
+  }
+  #submit-bt
+  {
+    padding:10px;
+    font-size:15px;
+    float:right;
+    text-decoration-color:white;
+    border-bottom-color:#ccc;
+    border-size:1px;
+    border-style:solid;
+    background-color: orange;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+#submit-bt:hover {
+  /* Glow effect on hover */
+  background-color: orange;
+  box-shadow: 0 0 20px black; 
+}
+  #about-us
+  {
+    width:250px;
+    height:450px;
+    float:right;
+    border-size:1px;
+    border-style:solid;
+    border-color:#ccc;
+    background-color:white;
+    margin-top:60px;
+   padding:20px;
+   
+  }
+  #About-Us
+  {
+    text-align:center;
+    
+  }
+  #abt-text
+  {
+    text-align:justify;
+  }
+    #more-sweets
+  {
+    width:100%;
+    border-sizing:border-box;
+    float:left;
+    text-align:center;
+  }
+    
+  
+  #m-sweet-img
+  {
+    width:125px;
+    height:150px;
+    float:right;
+    padding:15px;
+    border-width:5px;
+    border-style:solid;
+    border-color:#ccc;
+    border-sizing:border-box;
+    margin-top:20px;
+    margin-left:22px;
+  }
+  #m-sweet-img1
+  {
+    width:125px;
+    height:150px;
+    float:right;
+    padding:15px;
+    border-width:5px;
+    border-style:solid;
+    border-color:#ccc;
+    border-sizing:border-box;
+    margin-top:25px;
+    margin-left:27px;
+  }
+  #buy-bt-div
+  {
+    width:125px;
+    height:30px;
+    float:left;
+    padding:15px;
+    border-width:5px;
+    border-style:solid;
+    border-color:#ccc;
+    border-sizing:border-box;
+    margin-top:20px;
+    margin-left:22px;
+    
+    
+  }
+#buy-bt-m:hover
+{
+  background-color: orange;
+  box-shadow: 0 0 10px black;
+}
+  #buy-bt-m
+  {
+    width :100px;
+    height:40px;
+    float:left;
+    border-sizing:border-box;
+    border:1;
+    margin-left:3px;
+    font-size:15px;
+    text-align:center;
+    background-color:orange;
+    border-radius: 30px;
+  }
+  footer
+  {
+    width:102%;
+    height:250px;
+    float:left;
+    border-sizing:border-box;
+    color:white;
+    background-color:black;
+  }
+    #contact_us
+  {
+    width:350px;
+    height:250px;
+    border-sizing:border-box;
+    float:left;
+    border-width:1px;
+    border-style:solid;
+    border-color:red;
+  }
+  #Follow
+  {
+    width:350px;
+    height:249px;
+    border-sizing:border-box;
+    float:right;
+    border-width:1px;
+    border-style:solid;
+    border-color:red;
+    padding-left:20px;
+  }
+
+  #contact-detail
+  {
+    padding-left:20px;
+    padding:10px;
+  }
+  #contact-title
+  {
+    padding:10px;
+  }
+  
+    #devloper
+  {
+    margin-top:180px;
+    margin-left:100px;
+    padding:10px;
+    font-size:15px;
+    font-weight:bold;
+  }
+#close
+{
+  border-style: solid;
+  border-color: black;
+  background-color: black;
+}
+#close:hover
+{
+  box-shadow: 0 0 7px white;
+}
+    #social-img
+  {
+    padding-left:40px;
+  }
+  #follow-us-text
+  {
+    padding-left:20px;
+    margin-top:30px;
+  }
+.Progress
+{
+  width:500px;
+  height:40px;
+  background-color: #ddd;
+  margin: 500px auto;
+  border-radius: 50px;
+}
+.progress-bar
+{
+  width:0%;
+  height:40px;
+  background-color: aquamarine;
+  border-radius: 50px;
+  box-sizing: border-box;
+  animation: bar 4s 1;
+}
+@keyframes bar
+{
+  0%{width:0;}
+  100%{width:100%;}
+}
+
+.box
+{
+  width:102%;
+  height:3300px;
+  background-color: white;
+  position:absolute;
+  top:0;
+  left:0;
+  animation: box 4s ;
+  animation-fill-mode: forwards;
+  animation-delay: 4s;
+  
+}
+@keyframes box 
+{
+  0%{opacity: 0;}
+  100%{opacity: 0; display: none;}
+}
+.d-name
+{
+  width:120px;
+  margin-top: 20px;
+  color: black;
+  position: absolute;
+  padding-left: 380px;
+  text-shadow:4px 7px 7px orange;
+}
+.logobox
+{
+  width:100px;
+  height:100px;
+  border: 2px solid #ccc;
+  box-shadow: 7px 7px 7px black;
+  border-radius: 30px;
+  margin:0px auto;
+  margin-top: 100px;
+}
+img
+{
+  border-radius: 30px;
+}
+.magictime.foolishIn
+{
+  animation-delay: 5s;
+  animation-duration:2s;
+}
+.magictime.slideRight
+{
+  animation-delay: 2s;
+}
+.bg
+{
+  margin: 35px auto;
+  position: absolute;
+  color: black;
+  padding-left: 14px;
+  text-shadow: 5px 6px 7px orangered;
+}
+.created
+{
+  text-shadow: 5px 6px 7px orangered;
+  margin-top: 50px;
+}
+@media (min-width: 1200px) {
+  /* Adjusting properties for #menu-table */
+  #menu-table {
+    width: 600px;
+    height: 60px;
+    float: none;
+  }
+
+  /* Adjusting properties for #menu_item */
+  #menu_item {
+    width: 22%;
+    font-size: 1.2em;
+  }
+
+  /* Adjusting properties for section */
+  section {
+    width: 96%;
+    height: 3000px;
+    padding: 40px;
+    margin: 20px auto;
+  }
+
+  /* Adjusting properties for #popular-sweet-box */
+  #popular-sweet-box {
+    width: 680px;
+    height: 580px;
+    margin-top: 40px;
+    padding: 35px;
+    float: left;
+  }
+
+  /* Adjusting properties for #rate-list-box */
+  #rate-list-box {
+    width: 400px;
+    height: 626px;
+    margin-top: 40px;
+    float: right;
+  }
+
+  /* Adjusting properties for other elements... */
+  /* For example, if you have a .container class */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  @media (min-width: 1200px) {
+    /* Adjusting properties for #m-sweet-img and #m-sweet-img1 */
+    #m-sweet-img, #m-sweet-img1 {
+      width: 150px;
+      height: 180px;
+      padding: 20px;
+      margin-top: 30px;
+      margin-left: 30px;
+    }
+  
+    /* Adjusting properties for #buy-bt-div */
+    #buy-bt-div {
+      width: 150px;
+      height: 40px;
+      padding: 20px;
+      margin-top: 30px;
+      margin-left: 30px;
+    }
+  
+    /* Adjusting properties for #buy-bt-m */
+    #buy-bt-m {
+      width: 120px;
+      height: 50px;
+      font-size: 18px;
+      margin-left: 5px;
+    }
+    section
+  {
+    width :96%;
+    height:3200px;
+    float:left;
+border-sizing:border-box;
+    border-width:1px;
+    border-style:solid;
+    border-color:#ccc;
+    padding:30px;
+  }
+  footer
+  {
+    width:102%;
+    height:250px;
+    float:left;
+    border-sizing:border-box;
+    color:white;
+    background-color:black;
+  }
+  
+}
+
